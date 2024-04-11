@@ -70,6 +70,16 @@ class SecondVC: UIViewController {
         button1.topAnchor.constraint(equalTo: view.topAnchor, constant: 736).isActive = true
         button1.heightAnchor.constraint(equalToConstant: 46).isActive = true
         button1.widthAnchor.constraint(equalToConstant: 335).isActive = true 
+        
+        addAction()
+        
+    }
+    func addAction(){
+        button1.addTarget(self, action: #selector(goNextVC), for: .touchUpInside)
+    }
+    @objc func goNextVC(){
+        let thirdVC = ThirdVC()
+        navigationController?.pushViewController(thirdVC, animated: true)
     }
     
     

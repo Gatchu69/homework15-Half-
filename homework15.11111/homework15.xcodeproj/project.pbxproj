@@ -16,6 +16,7 @@
 		CC43A1142BC71BEC0059F629 /* homework15UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43A1132BC71BEC0059F629 /* homework15UITests.swift */; };
 		CC43A1162BC71BEC0059F629 /* homework15UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43A1152BC71BEC0059F629 /* homework15UITestsLaunchTests.swift */; };
 		CC43A1242BC7C0210059F629 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43A1232BC7C0210059F629 /* SecondVC.swift */; };
+		CC43A1262BC7DA5A0059F629 /* thirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43A1252BC7DA5A0059F629 /* thirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC43A1132BC71BEC0059F629 /* homework15UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework15UITests.swift; sourceTree = "<group>"; };
 		CC43A1152BC71BEC0059F629 /* homework15UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework15UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC43A1232BC7C0210059F629 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		CC43A1252BC7DA5A0059F629 /* thirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				CC43A0F62BC71BEB0059F629 /* MainVC.swift */,
 				CC43A1232BC7C0210059F629 /* SecondVC.swift */,
+				CC43A1252BC7DA5A0059F629 /* thirdVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC43A1262BC7DA5A0059F629 /* thirdVC.swift in Sources */,
 				CC43A0F72BC71BEB0059F629 /* MainVC.swift in Sources */,
 				CC43A0F32BC71BEB0059F629 /* AppDelegate.swift in Sources */,
 				CC43A1242BC7C0210059F629 /* SecondVC.swift in Sources */,
